@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my first web page</title>
+    <link rel="stylesheet" href="css\dog.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="firstheading">Dog Photos App</h1>
+      <img src="https://img.freepik.com/free-vector/happy-dog-with-big-white-bone_3446-321.jpg?size=338&ext=jpg&ga=GA1.2.2069751348.1662111340" alt="dog icon" class="iconimg1">
+    </div>
+
+    <main>
+      <section>
+        <p>
+          click here to view more
+          <a href="https://images.unsplash.com/photo-1639655051507-28423cee3637?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=382&q=80">
+            dog photos
+          </a>
+          .
+        </p>
+        <a href="https://images.unsplash.com/photo-1639655051507-28423cee3637?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=382&q=80">
+          <img
+            src="https://images.unsplash.com/photo-1577920613552-1de9821340cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="A cute husky dog laying on the bed"
+          />
+        </a>
+        <!--todo:add link to to dog photo-->
+      </section>
+      <section>
+        <h2 class="header-2">Dog Lists</h2>
+        <h3>Things dogs love</h3>
+        <ul>
+          <li>meat;chicken and chicken</li>
+          <li>slice of cheese</li>
+          <li>carrot</li>
+        </ul>
+        <figure>
+          <img
+            src="https://cdn-abigi.nitrocdn.com/efuJsKtDyptHinJPkZsojPmTOBGlNDxZ/assets/static/optimized/rev-b0210be/wp-content/uploads/2022/03/DN-website-783x410-RawMeatMyths.jpg"
+            alt="a dog starring at the meat on the table"
+          />
+          <figcaption class="fignumber">dogs <em class="bold">love</em> meat</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h3>Top 3 things dogs hate</h3>
+        <ol>
+          <li>Fireworks</li>
+          <li>Having nails trimmed</li>
+          <li>Have their bone taken away</li>
+        </ol>
+        <figure>
+          <img
+            src="https://cdn-abigi.nitrocdn.com/efuJsKtDyptHinJPkZsojPmTOBGlNDxZ/assets/static/optimized/rev-b0210be/wp-content/uploads/2020/06/Firework-DNM.jpg"
+            alt="two dogs scared of fireworks covered with duve"
+          />
+          <figcaption class="fignumber">dogs <strong class="bold">hate</strong> fireworks</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2 class="header-2">Dog Form</h2>
+        <form>
+          <fieldset>
+            <legend>Is your dog an indoor or outdoor dog</legend>
+            <label for="indoor">indoor</label>
+            <input type="radio" id="indoor" name="indoor-outdoor" />
+            <label for="outdoor">outdoor</label>
+            <input type="radio" id="outdoor" name="indoor-outdoor" />
+          </fieldset>
+          <fieldset>
+            <legend>what is your dog personality</legend>
+            <label for="loving">loving</label>
+            <input type="checkbox" id="loving " name="loving" value="loving"/>
+            <label for="aggressive">aggressive</label>
+            <input
+              type="checkbox"
+              id="aggressive "
+              name="aggressive"
+              value="aggressive"
+            />
+            <label for="lazy">lazy</label>
+            <input type="checkbox" id="lazy" name="lazy" value="lazy" />
+          </fieldset>
+          <fieldset>
+            <input type="text" name="dogphotourl" placeholder="dog photo url" />
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="copicon">&copy; 2022 by Oluwseyi.</p>
+    </footer>
+  </body>
+</html>
